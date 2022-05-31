@@ -25,6 +25,94 @@ https://github.com/Team-Code/KA_Offline -->
         size(innerWidth, innerHeight); 
         frameRate(30);
 //////////////////////////////////////////////////////////////////////////////////////////
+background(168, 225, 255);
+
+fill(115, 255, 0);
+rect(1,361,397,42);//ground
+
+fill(255, 255, 255);
+ellipse(200,300,157,157); //snowman
+ellipse(200,207,105,105);
+ellipse(200,135,74,75);
+
+line(74,54,175,219); //arms
+line(73,55,229,219);
+
+ellipse(120,34,13,13);
+ellipse(338,34,13,13);
+ellipse(365,42,13,13);
+ellipse(308,16,13,13);
+ellipse(279,45,13,13);
+ellipse(248,25,13,13);
+ellipse(199,34,13,13);
+ellipse(164,13,-14,14);
+ellipse(86,26,13,13);
+ellipse(19,34,13,13);
+ellipse(47,12,13,13);
+
+ellipse(45,51,8,13);
+ellipse(45,74,8,13);
+ellipse(44,102,8,13);
+ellipse(321,51,8,13);
+ellipse(288,74,8,13);
+ellipse(263,102,8,13);
+
+ellipse(135,51,8,13);
+ellipse(118,74,8,13);
+ellipse(153,102,8,13);
+ellipse(220,51,8,13);
+ellipse(179,74,8,13);
+ellipse(227,89,8,13);
+
+ellipse(164,51,8,13);
+ellipse(18,61,8,13);
+ellipse(62,37,8,13);
+ellipse(97,51,8,13);
+ellipse(82,74,8,13);
+ellipse(96,89,8,13);
+
+ellipse(348,74,8,13);
+ellipse(246,81,8,13);
+ellipse(378,106,8,13);
+ellipse(317,98,8,13);
+ellipse(82,74,8,13);
+ellipse(96,89,8,13);
+
+ellipse(389,74,8,13);
+ellipse(325,148,8,13);
+ellipse(378,171,8,13);
+ellipse(317,162,8,13);
+ellipse(82,147,14,13);
+ellipse(96,123,8,13);
+
+ellipse(286,124,8,13);
+ellipse(27,145,14,13);
+ellipse(74,115,8,13);
+ellipse(108,145,14,13);
+ellipse(208,76,8,13);
+
+ellipse(252,145,14,13);
+ellipse(351,115,8,13);
+ellipse(108,145,14,13);
+ellipse(208,76,8,13);
+
+fill(250, 250, 250);
+ellipse(184,122,27,17); //eyes
+ellipse(215,122,27,17);
+
+fill(0, 102, 255);
+ellipse(185,122,15,15);//pupils
+ellipse(215,122,15,15);
+
+fill(0, 0, 0);
+ellipse(185,122,5,5);
+ellipse(215,122,5,5);
+
+fill(255, 221, 0);
+arc(201,111,20,58, 46, 123);
+
+fill(250, 250, 250);
+arc(202,134,51,43, 54, 118);
 
 
 
