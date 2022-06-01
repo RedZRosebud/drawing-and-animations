@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- This is based on DillingerLee's great template here:
+https://github.com/Team-Code/KA_Offline -->
+<html> 
+ <head>
+    <title>Melting chocolate</title> 
+       <style>
+        body {
+          margin: 0;
+        }
+        </style>
+</head>
+ <body>
+<canvas id="mycanvas"></canvas> 
+ </body>
+ 
+ <!-- Run all the JavaScript stuff -->
+ <!-- Include the processing.js library -->
+ <!-- See https://khanacademy.zendesk.com/hc/en-us/articles/202260404-What-parts-of-ProcessingJS-does-Khan-Academy-support- for differences -->
+ <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script>
+ 
+ <script>
+    var sketchProc = function(processingInstance) {
+     with (processingInstance) {
+        size(innerWidth, innerHeight); 
+        frameRate(30);
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+background(0, 212, 219);
+
+
+fill(255, 221, 0);
+ellipse(274,125,150,150);
+
+fill(89, 47, 5);
+noStroke();
+
+var y = 100;
+
+
+
+draw = function() {
+    rect(135,y - 51,123,302); //chocolate
+
+stroke(0, 0, 0);
+rect(135,y - 51,47,50);  //chocolate squares 
+rect(168,y - 51,47,50);
+rect(210, y - 51,47,50);
+
+rect(136,y,47,50);
+rect(168,y,47,50);
+rect(210,y,47,50);
+
+rect(136,y + 49,47,50);
+rect(168,y + 49,47,50);
+rect(210, y + 49,47,50);
+
+rect(136,y + 100,47,50);
+rect(168,y + 100,47,50);
+rect(210, y + 100,47,50);
+
+rect(136,y + 151,47,50);
+rect(168,y + 151,47,50);
+rect(210,y + 151,47,50);
+
+rect(136,y + 202,47,50);
+rect(168,y + 202,47,50);
+rect(210,y + 202,47,50);
+
+y = y + 1;
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+    }};
+    // Get the canvas that Processing-js will use
+    var canvas = document.getElementById("mycanvas"); 
+    // Pass the function sketchProc (defined in myCode.js) to Processing's constructor.
+    var processingInstance = new Processing(canvas, sketchProc); 
+ </script>
+ 
+ <script>
+ window.addEventListener('keydown', function () { 
+    "use strict";
+    window.location.reload(); 
+});
+ </script>
+</html>
